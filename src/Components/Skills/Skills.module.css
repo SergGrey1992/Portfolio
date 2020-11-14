@@ -1,0 +1,19 @@
+.mainBlock {
+    height: 100vh;
+    background-color: #018a84;
+}
+
+.skillsContainer {
+    flex-direction: column;
+    
+    border: 1px solid red;
+}
+
+.h2Style {
+    margin: 0;
+    border: 1px solid red;
+}
+
+.skillsBlock {
+    border: 1px solid red;
+}

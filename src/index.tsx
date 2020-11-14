@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {mySkills} from "./Redux/Store";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App skills={mySkills}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
