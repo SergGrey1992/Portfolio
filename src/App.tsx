@@ -3,18 +3,18 @@ import './App.css';
 import {Header} from "./Components/Header/Header";
 import {Main} from "./Components/Main/Main";
 import {Skills} from "./Components/Skills/Skills";
-import {mySkillsType, skillsType} from "./Redux/Store";
+import {MyWorks} from "./Components/MyJobs/MyWorks";
 
-type PropsType = {
-  skills: mySkillsType
-}
 
-function App(props: PropsType) {
+
+
+function App() {
   return (
     <div>
       <Header/>
       <Main />
-      <Skills skills={props.skills} />
+      <Skills />
+      <MyWorks />
     </div>
   );
 }

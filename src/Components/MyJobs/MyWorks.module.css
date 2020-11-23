@@ -1,0 +1,20 @@
+.wrapperJobs {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+}
+
+.container {
+    width: 80%;
+    border: 1px solid red;
+}
+.h4Wrapper {
+    border: 1px solid red;
+}
+
+.wrapperWork {
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
