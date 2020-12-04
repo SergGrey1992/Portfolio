@@ -27,6 +27,7 @@
     border: 1px solid red;
 }
 input[type=text] {
+    background-color: #e4abf0;
     width: 250px;
     padding:10px;
     border-radius:10px;
