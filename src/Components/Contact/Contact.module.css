@@ -1,0 +1,51 @@
+.pStyle {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapperContact {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    background-color: cadetblue;
+}
+
+.container {
+    width: 80%;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.formWrapper {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+}
+
+.labelWrapp {
+    border: 1px solid red;
+}
+input[type=text] {
+    width: 250px;
+    padding:10px;
+    border-radius:10px;
+}
+input[type=email] {
+    width: 250px;
+    padding:10px;
+    border-radius:10px;
+}
+
+input[type=tel] {
+    width: 250px;
+    padding:10px;
+    border-radius:10px;
+}
+
+input[type=submit] {
+    width: 250px;
+    padding:10px;
+    border-radius:10px;
+}
+

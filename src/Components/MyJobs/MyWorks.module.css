@@ -8,12 +8,14 @@
 .container {
     width: 80%;
     border: 1px solid red;
+    text-align: center;
 }
 .h4Wrapper {
+
     border: 1px solid red;
 }
 
-.wrapperWork {
+.wrapperWorks {
     border: 1px solid red;
     display: grid;
     grid-template-columns: repeat(3, 1fr);

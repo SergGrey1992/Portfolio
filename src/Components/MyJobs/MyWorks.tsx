@@ -10,7 +10,7 @@ export function MyWorks() {
     <div className={style.wrapperJobs}>
       <div className={style.container}>
         <h4 className={style.h4Wrapper} >My Works</h4>
-        <div className={style.wrapperWork} >
+        <div className={style.wrapperWorks} >
           <Work title={"Counter"}/>
           <Work  title={"Social Network"}/>
           <Work  title={"Todo List"}/>
