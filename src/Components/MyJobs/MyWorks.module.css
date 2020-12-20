@@ -11,12 +11,25 @@
     text-align: center;
 }
 .h4Wrapper {
-
     border: 1px solid red;
 }
 
 .wrapperWorks {
     border: 1px solid red;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapperWorks {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .wrapperWorks {
+        grid-template-columns: 1fr
+    }
 }

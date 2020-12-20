@@ -19,9 +19,24 @@
 
 .wrapperSkillBlock {
     padding: 5px;
-    width: 100%;
+    max-width: 100%;
     border: 1px solid red;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
+
+@media screen and (max-width: 768px) {
+    .wrapperSkillBlock {
+
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .wrapperSkillBlock {
+
+    }
+}
+
+
