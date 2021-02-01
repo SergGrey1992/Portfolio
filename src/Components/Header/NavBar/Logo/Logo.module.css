@@ -1,6 +1,7 @@
 .logo {
-    color: #fff;
+    color: #211a08;
     text-transform: capitalize;
-    background: #000;
+    background: #fafafa;
     padding: 5px 10px;
+    font-weight: 700;
 }
