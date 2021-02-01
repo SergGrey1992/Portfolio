@@ -1,35 +1,18 @@
 .wrapperJobs {
-    border: 1px solid red;
     display: flex;
     justify-content: space-around;
-    background-color: antiquewhite;
+    background-color: #211006;
+    padding: 70px 0;
 }
 
 .container {
     width: 80%;
-    border: 1px solid red;
     text-align: center;
-}
-.h4Wrapper {
-    border: 1px solid red;
 }
 
 .wrapperWorks {
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-
-@media screen and (max-width: 768px) {
-    .wrapperWorks {
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-
-@media screen and (max-width: 460px) {
-    .wrapperWorks {
-        grid-template-columns: 1fr
-    }
 }

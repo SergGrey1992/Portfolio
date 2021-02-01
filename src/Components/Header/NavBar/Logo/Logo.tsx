@@ -3,8 +3,8 @@ import style from './Logo.module.css'
 
 export function Logo() {
   return (
-    <div className={style.header}>
-      Logo
+    <div className={style.logo}>
+      Serg Dziatkovich
     </div>
   );
 }

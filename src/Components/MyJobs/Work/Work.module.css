@@ -1,9 +1,35 @@
 .wrapperWork {
-    border: 1px solid red;
     padding: 5px;
-    width: 340px;
+    width: 33.33333%;
+}
+@media screen and (max-width: 1025px) {
+    .wrapperWork {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .wrapperWork {
+        width: 100%;
+    }
 }
 
 .titleWork {
     font-size: 20px;
+}
+.wrapperWork h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    transition: .3s;
+    color: #fafafa;
+    letter-spacing: 2px;
+    font-weight: 500;
+    line-height: 1.1;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapperWork p {
+    margin: 0;
+    line-height: 32px;
+    color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
 }

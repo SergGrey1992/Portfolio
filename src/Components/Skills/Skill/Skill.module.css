@@ -1,10 +1,27 @@
 .wrapperSkill {
-    padding: 8px;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
+    padding:10px;
+    margin: 3px;
+    width: 32.33333%;
     align-items: center;
     flex-wrap: wrap;
+    border: 1px solid #fafafa;
+    border-radius: 15px;
+    transition: background 0.5s ease;
+}
+
+.wrapperSkill:hover {
+    background-color: #292939;
+
+}
+@media screen and (max-width: 1025px) {
+    .wrapperSkill {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .wrapperSkill {
+        width: 100%;
+    }
 }
 .icon {
     display: flex;
@@ -12,15 +29,23 @@
     width: 50px;
     height: 50px;
     background-color: blueviolet;
-
 }
 
 .titleH3 {
-    display: flex;
-    justify-content: center;
-    margin: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    transition: .3s;
+    color: #fafafa;
+    letter-spacing: 2px;
+    font-weight: 500;
+    line-height: 1.1;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .wrapperText {
     margin: 0;
+    line-height: 32px;
+    color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
 }

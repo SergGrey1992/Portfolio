@@ -1,42 +1,23 @@
 .mainBlock {
-    background-color: #018a84;
+    background: #211a08;
+    min-height: min-content;
 }
 
 .skillsContainer {
     flex-direction: row;
     justify-content: flex-start;
-    border: 1px solid red;
     flex-wrap: wrap;
-}
-
-.h2Style {
-    border: 1px solid red;
-}
-
-.skillsBlock {
-    border: 1px solid red;
+    padding: 70px 0;
 }
 
 .wrapperSkillBlock {
     padding: 5px;
     max-width: 100%;
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 768px) {
-    .wrapperSkillBlock {
-
-    }
-}
-
-@media screen and (max-width: 460px) {
-    .wrapperSkillBlock {
-
-    }
-}
 
 

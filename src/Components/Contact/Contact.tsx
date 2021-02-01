@@ -1,11 +1,14 @@
 import React from "react"
 import style from "./Contact.module.css"
+import {Heading} from "../Heading/Heading";
 
 export const Contact = () => {
 	return (
 		<div className={style.wrapperContact} >
 			<div className={style.container}>
-				<h3>Contacts</h3>
+				<div>
+				<Heading title={"Contacts"}/>
+				</div>
 				<form className={style.formWrapper} action="#">
 					<label className={style.labelWrapp} >
 						<input type="text" name="name" placeholder={"Имя"}/>

@@ -6,7 +6,6 @@ type PropsType = {
 }
 
 export function Skill(props:PropsType) {
-
   return (
     <div className={style.wrapperSkill}>
       <div className={style.icon}>1</div>

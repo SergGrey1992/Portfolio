@@ -1,7 +1,6 @@
 import React from 'react';
 import style from "./Main.module.css"
-
-
+import {ScrollIcon} from "../../common/Scroll_icon/Scroll_icon";
 
 export function Main() {
   return (
@@ -9,11 +8,15 @@ export function Main() {
       <div className={style.container}>
         <div className={style.text}>
           <span>Hi There</span>
-          <h1>I am Serg Dziatkovich</h1>
+          <h2 className={style.h2Text} >
+            <span>I am </span>
+            <span>Serg </span>
+            <span>Dziatkovich</span>
+            </h2>
           <p>Front-end Developed</p>
         </div>
-        <div className={style.photo}>1</div>
       </div>
+      <ScrollIcon/>
     </div>
   );
 }
