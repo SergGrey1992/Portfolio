@@ -18,6 +18,21 @@
         width: 50%;
     }
 }
+@media only screen and (max-width : 800px)  {
+    .wrapperSkill {
+        width: 50%;
+    }
+}
+@media only screen and (max-width : 768px)  {
+    .wrapperSkill {
+        width: 50%;
+    }
+}
+@media only screen and (max-width : 533px)  {
+    .wrapperSkill {
+        width: 100%;
+    }
+}
 @media screen and (max-width: 375px) {
     .wrapperSkill {
         width: 100%;
