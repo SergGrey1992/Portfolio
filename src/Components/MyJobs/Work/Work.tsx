@@ -3,13 +3,17 @@ import style from "./Work.module.css"
 
 type PropsType = {
   title:string
+  img: object
 }
 
-export function Work(props: PropsType) {
+export const Work:React.FC<PropsType> = ({title, img}) => {
 
   return (
     <div className={style.wrapperWork} >
-      <h3 className={style.titleWork} >{props.title}</h3>
+      <h3 className={style.titleWork} >{title}</h3>
+
+        <div style={img}  className={style.imgInfo} ></div>
+
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur, assumenda consequuntur eius, in minima, praesentium quam quidem quisquam repudiandae sit tenetur totam veritatis. Debitis delectus molestiae nobis rem vero?</p>
     </div>
   );

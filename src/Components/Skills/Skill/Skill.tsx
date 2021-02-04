@@ -1,16 +1,25 @@
 import React from "react"
 import style from "./Skill.module.css"
 
+
 type PropsType = {
   skills:string
+  progressValue: string
+  icon: string
 }
 
-export function Skill(props:PropsType) {
+export const Skill:React.FC<PropsType> = ({skills, progressValue, icon}) => {
   return (
     <div className={style.wrapperSkill}>
-      <div className={style.icon}>1</div>
-      <h3 className={style.titleH3} >{ props.skills }</h3>
-      <p className={style.wrapperText}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque impedit qui repudiandae velit. Ab blanditiis commodi fugit impedit ipsum iusto maiores maxime modi mollitia officiis perferendis praesentium quam, voluptate. Dolorum eligendi ex fugit labore laudantium, nulla odit possimus reiciendis.</p>
+      <div className={style.iconLog}>
+        <img src={icon} alt="#"/>
+        <h3 className={style.titleH3} >{ skills }</h3>
+      </div>
+
+      <div className={style.progress}>
+        <div className={style.progressBar}><span>{progressValue}%</span></div>
+
+      </div>
     </div>
   );
 }

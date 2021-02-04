@@ -1,44 +1,43 @@
-.pStyle {
-    display: flex;
-    flex-direction: column;
-}
-
 .wrapperContact {
     padding: 70px 0;
     display: flex;
     justify-content: space-around;
-    background: #211a08
+    background: #fafafa;
 }
 
 .container {
     width: 80%;
 
     text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .formWrapper {
     display: flex;
     flex-direction: column;
+    align-items: center;
     min-height: 300px;
+    margin: 0 auto;
 }
 
-.labelWrapp {
-
-}
 textarea {
     min-height: 150px;
+    width: 60%;
     font-size: 18px;
-    background-color: #fafaf1;
+    background-color: #F7F7F7;
     margin-bottom: 25px;
 }
 input[type=text], input[type=email], input[type=tel] {
     display: block;
     border: 0;
-    width: 100%;
+    width: 60%;
     height: 45px;
     padding: 5px 10px;
     font-size: 18px;
-    background-color: #fafaf1;
+    background-color: #F7F7F7;
     background-image: none;
     margin-bottom: 25px;
 }

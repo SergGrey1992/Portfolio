@@ -9,23 +9,17 @@ export const Contact = () => {
 				<div>
 					<Heading title={"Contacts"}/>
 				</div>
-				<form className={style.formWrapper} >
-						<label className={style.labelWrapp}>
-							<input type="text" name="name" placeholder={"Имя"}/></label>
-					<label className={style.labelWrapp}>
-						<input type="text" name="name" placeholder={"Фамилия"}/>
-					</label>
-					<label className={style.labelWrapp}>
-						<input type="email" name="email" placeholder={"Email"}/>
-					</label>
-					<label className={style.labelWrapp}>
-						<input type="tel" name="tel" placeholder={"mobile phone"}/>
-					</label>
-					<textarea/>
-					<label className={style.labelWrapp}>
-						<input type="submit" value="Отправить"/>
-					</label>
-				</form>
+				<div className={style.formWrapp}>
+					<form className={style.formWrapper} >
+							<input type="text" name="name" placeholder={"Имя"}/>
+							<input type="text" name="name" placeholder={"Фамилия"}/>
+							<input type="email" name="email" placeholder={"Email"}/>
+							<input type="tel" name="tel" placeholder={"mobile phone"}/>
+						<textarea/>
+							<input type="submit" value="Отправить"/>
+					</form>
+				</div>
+
 			</div>
 		</div>
 	)

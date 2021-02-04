@@ -34,7 +34,7 @@
     top: 0;
     height: 100%;
     width: 51%;
-    background: #fff;
+    background: #211006;
 }
 
 .chevron:before {
@@ -71,7 +71,8 @@
     margin-top: 75px;
     margin-left: -30px;
     font-size: 12px;
-    color: #fff;
+    font-weight: 700;
+    color: #211006;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     white-space: nowrap;

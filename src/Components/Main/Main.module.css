@@ -1,6 +1,6 @@
 .mainBlock {
     height: 100vh;
-    background-color: #211006;
+    background-color: #fafafa;
 }
 .container {
     height: 100%;
@@ -17,13 +17,13 @@
     align-items: center;
 }
 .text span,.text p{
-    color: #fafafa;
+    color: #211006;
     font-size: 16px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
 .h2Text span{
-    color: #fafafa;
+    color: #211006;
     font-size: 100px;
     font-weight: 900;
     font-family: 'Montserrat', sans-serif;

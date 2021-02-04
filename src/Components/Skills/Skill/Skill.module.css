@@ -1,17 +1,44 @@
 .wrapperSkill {
     padding:10px;
     margin: 3px;
-    width: 32.33333%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    border: 1px solid #fafafa;
     border-radius: 15px;
     transition: background 0.5s ease;
 }
 
-.wrapperSkill:hover {
-    background-color: #292939;
-
+.progress {
+    height: 20px;
+    width: 100%;
+    margin-bottom: 12px;
+    background: #F7F7F7;
+    box-shadow: none;
+    border: 0;
+    margin-top: 8px;
+}
+.progressBar {
+    width: 82%;
+    background: #232323;
+    float: left;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    transition: width .6s ease;
+}
+.progressBar span {
+    font-weight: 700;
+    font-size: 20px;
+}
+.iconLog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 @media screen and (max-width: 1025px) {
     .wrapperSkill {
@@ -43,7 +70,6 @@
     justify-content: center;
     width: 50px;
     height: 50px;
-    background-color: blueviolet;
 }
 
 .titleH3 {
@@ -51,7 +77,7 @@
     text-transform: uppercase;
     margin: 20px 0;
     transition: .3s;
-    color: #fafafa;
+    color: #211006;
     letter-spacing: 2px;
     font-weight: 500;
     line-height: 1.1;
@@ -61,6 +87,6 @@
 .wrapperText {
     margin: 0;
     line-height: 32px;
-    color: #fafafa;
+    color: #211006;
     font-family: 'Montserrat', sans-serif;
 }
