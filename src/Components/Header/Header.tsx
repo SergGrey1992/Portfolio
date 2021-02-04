@@ -6,8 +6,8 @@ import {Logo} from "./NavBar/Logo/Logo";
 export function Header() {
   return (
     <div className={style.header}>
-      <Logo />
       <NavBar/>
+      <Logo />
     </div>
   );
 }

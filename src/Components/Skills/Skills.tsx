@@ -23,7 +23,7 @@ export function Skills() {
     {skills: "Redux", progressValue: "90", icon: redux},
     {skills: "Git", progressValue: "90", icon: git},
   ]
-  const skillMap = skills.map( s => <Skill skills={s.skills} progressValue={s.progressValue} icon={s.icon}/> )
+  const skillMap = skills.map( (s,index )=> <Skill key={index} skills={s.skills} progressValue={s.progressValue} icon={s.icon}/> )
 
   return (
     <section className={style.mainBlock}>

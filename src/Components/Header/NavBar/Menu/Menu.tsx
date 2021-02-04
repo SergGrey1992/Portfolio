@@ -1,13 +1,29 @@
 import React from 'react';
 import style from './Menu.module.css'
+import {itemsType} from "../NavBar";
 
-export function Menu() {
+type PropsType = {
+  header: string
+  items: Array<itemsType>
+  active: boolean
+  setActive: (e: any) => void
+}
+
+export const Menu:React.FC<PropsType> = ({header,items, active,setActive}) => {
   return (
-    <div className={style.wrapperMenu}>
-      <a href="">Главная</a>
-      <a href="">Скилы</a>
-      <a href="">Проекты</a>
-      <a href="">Контакты</a>
+    <div className={active ? `${style.wrapperMenu} ${style.active}` : `${style.wrapperMenu}`} onClick={()=> setActive(false)}>
+      <div className={style.blur}/>
+      <div className={style.menuContent}>
+        <div className={style.menuHeader}>{header}</div>
+        <ul>
+          {items.map((i, index ) =>
+            <li key={index}>
+              <a href={i.href}>{i.value}</a>
+            </li>
+          )}
+        </ul>
+      </div>
+
     </div>
   );
 }
