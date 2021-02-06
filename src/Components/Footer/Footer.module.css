@@ -1,8 +1,6 @@
 .wrapperFooter {
-    border: 1px solid red;
     display: flex;
     justify-content: space-around;
-    background-color: darkcyan;
 }
 
 .container {
@@ -11,6 +9,5 @@
     padding: 10px 0 10px 0;
     flex-direction: row;
     justify-content: space-around;
-    border: 1px solid red;
     text-align: center;
 }

@@ -13,7 +13,10 @@ export function Main() {
             <span>Serg </span>
             <span>Dziatkovich</span>
             </h2>
-          <p>Front-end Developed</p>
+          <div className={style.wrapper}>
+            <p>Front-end Developed</p>
+          </div>
+
         </div>
       </div>
       <ScrollIcon/>
