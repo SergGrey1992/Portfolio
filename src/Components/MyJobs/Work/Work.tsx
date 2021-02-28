@@ -13,8 +13,8 @@ export const Work:React.FC<PropsType> = ({title, img}) => {
       <h3 className={style.titleWork} >{title}</h3>
 
         <div style={img}  className={style.imgInfo} >
-          <button>1</button>
-          <button>2</button>
+          <button>Watch</button>
+          <button>Code</button>
         </div>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur, assumenda consequuntur eius, in minima, praesentium quam quidem quisquam repudiandae sit tenetur totam veritatis. Debitis delectus molestiae nobis rem vero?</p>

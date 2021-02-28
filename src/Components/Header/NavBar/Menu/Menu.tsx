@@ -3,18 +3,17 @@ import style from './Menu.module.css'
 import {itemsType} from "../NavBar";
 
 type PropsType = {
-  header: string
+
   items: Array<itemsType>
   active: boolean
   setActive: (e: any) => void
 }
 
-export const Menu:React.FC<PropsType> = ({header,items, active,setActive}) => {
+export const Menu:React.FC<PropsType> = ({items, active,setActive}) => {
   return (
     <div className={active ? `${style.wrapperMenu} ${style.active}` : `${style.wrapperMenu}`} onClick={()=> setActive(false)}>
       <div className={style.blur}/>
       <div className={style.menuContent}>
-        <div className={style.menuHeader}>{header}</div>
         <ul>
           {items.map((i, index ) =>
             <li key={index}>

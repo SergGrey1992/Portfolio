@@ -3,7 +3,7 @@ import style from "./Footer.module.css"
 import inst from "../../assets/IconsFooter/instagram.svg"
 import linked from "../../assets/IconsFooter/linkedin.svg"
 import telegram from "../../assets/IconsFooter/telegram.svg"
-import phone from "../../assets/IconsFooter/whatsapp.svg"
+import phone from "../../assets/IconsFooter/phone.svg"
 import gmail from "../../assets/IconsFooter/gmail.svg"
 
 export const Footer = () => {
@@ -16,7 +16,7 @@ export const Footer = () => {
 	]
 	const itemsMap = item.map( i => <div key={i.id}><a key={i.id} href={i.link}><img key={i.id} src={i.icon} alt="#"/></a></div> )
 	return (
-		<div className={style.wrapperFooter}>
+		<div className={style.wrapperFooter} id={'4'}>
 			<div className={style.container} >
 				{itemsMap}
 			</div>

@@ -6,7 +6,7 @@ export function ScrollIcon() {
 		<div>
 			<div className={style.scrollMouse}>
 				<div className={style.scrollTo}>
-					<a href="#">
+					<a href="#1">
 						<div className={style.chevron}></div>
 						<div className={style.chevron}></div>
 						<div className={style.chevron}></div>

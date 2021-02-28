@@ -22,9 +22,9 @@
 }
 
 .menuContent {
-    width: 30%;
-    height: 30%;
-    background-color: #4e93e6;
+    width: 25%;
+    height: 100%;
+    background-color: #211006;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,4 +33,22 @@
 ul li a {
     color: white;
     text-decoration: none;
+    font-size: 30px;
+    padding: 5px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    height: 100%;
+}
+
+ul li a:hover {
+    padding: 5px;
+    color: #4e93e6;
+
+    transition: 0.5s;
 }

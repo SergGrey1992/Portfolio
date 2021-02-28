@@ -4,7 +4,7 @@ import {Heading} from "../Heading/Heading";
 
 export const Contact = () => {
 	return (
-		<div className={style.wrapperContact}>
+		<div className={style.wrapperContact} id={'3'}>
 			<div className={style.container}>
 				<div>
 					<Heading title={"Contacts"}/>
