@@ -10,12 +10,15 @@ import counter from "../../assets/images/Counter.png"
 export function MyWorks() {
 	const todoListsImg = {
 		backgroundImage: 'url(' + todoList + ')',
+		href: 'https://github.com/SergGrey1992/TodoList'
 	};
 	const socialImg = {
 		backgroundImage: 'url(' + social + ')',
+		href: 'https://github.com/SergGrey1992/Social_network'
 	};
 	const counterImg = {
 		backgroundImage: 'url(' + counter + ')',
+		href: 'https://github.com/SergGrey1992/My_Counter'
 	};
 
 	return (
@@ -25,9 +28,9 @@ export function MyWorks() {
 					<Heading title={"My Works"}/>
 				</div>
 				<div className={style.wrapperWorks}>
-					<Work title={"Counter"} img={counterImg}/>
-					<Work title={"Social Network"} img={socialImg}/>
-					<Work title={"Todo List"} img={todoListsImg}/>
+					<Work title={"Counter"} img={counterImg} href={counterImg.href}/>
+					<Work title={"Social Network"} img={socialImg} href={counterImg.href}/>
+					<Work title={"Todo List"} img={todoListsImg} href={todoListsImg.href}/>
 				</div>
 			</div>
 		</div>
