@@ -20,6 +20,7 @@ export function Skills() {
 		{skills: "Redux", progressValue: "90", icon: redux},
 		{skills: "Git", progressValue: "50", icon: git},
 	]
+	//test git
 	const skillMap = skills.map((s, index) => <Skill key={index} skills={s.skills} progressValue={s.progressValue}
 																									 icon={s.icon}/>)
 	return (
